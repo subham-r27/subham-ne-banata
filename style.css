@@ -1,0 +1,114 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5; /* Light gray background */
+    line-height: 1.6;
+    margin: 0; /* Remove default margin */
+}
+
+/* Header styles */
+header {
+    background-color: #2c3e50; /* Dark blue background */
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Main styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    border-radius: 8px;
+    background-color: chartreuse;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark blue text */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Light gray border */
+    background-color: black;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[readonly] {
+    background-color: #f5f5f5; /* Light gray background for readonly inputs */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #2c3e50; /* Dark blue background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue background color on hover */
+}
+
+body {
+    background-image: url('OIP (1).jpeg');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Scales the image to cover the entire element */
+    background-position: center; /* Centers the image */
+}

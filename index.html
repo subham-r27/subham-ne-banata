@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emissions Avoidance Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Emissions Avoidance Data</h1>
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Person</th>
+                    <th>Date</th>
+                    <th>Distance Traveled (km)</th>
+                    <th>Emissions Avoided (kg CO2)</th>
+                    <th>Reward Points</th>
+                    <th>Adjusted Reward Points</th>
+                </tr>
+                <tr>
+                    <th><input type="text" id="person-input" placeholder="Enter name"></th>
+                    <th><input type="date" id="date-input"></th>
+                    <th><input type="number" id="distance-input" placeholder="Enter distance"></th>
+                    <th><input type="text" id="emissions-output" placeholder="0" readonly></th>
+                    <th><input type="text" id="reward-output" placeholder="0" readonly></th>
+                    <th><input type="text" id="adjusted-reward-output" placeholder="0" readonly></th>
+                </tr>
+            </thead>
+            <tbody id="data-body">
+                <!-- Data will be rendered here -->
+            </tbody>
+        </table>
+        <button type="button">Submit</button>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2023 Emissions Avoidance Data</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
